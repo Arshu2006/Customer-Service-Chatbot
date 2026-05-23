@@ -1,0 +1,27 @@
+{
+ "intents":[
+   {
+      "tag":"greeting",
+      "patterns":["hi","hello","hey"],
+      "responses":["Hello! How can I help you?"]
+   },
+
+   {
+      "tag":"order",
+      "patterns":["where is my order","track order"],
+      "responses":["Please provide your Order ID."]
+   },
+
+   {
+      "tag":"refund",
+      "patterns":["refund","money back"],
+      "responses":["Refund available within 7 days."]
+   },
+
+   {
+      "tag":"payment",
+      "patterns":["payment failed"],
+      "responses":["Please retry payment."]
+   }
+ ]
+}
