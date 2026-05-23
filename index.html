@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Chatbot</title>
+
+<link rel="stylesheet"
+href="{{url_for('static',filename='style.css')}}">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<<h2>AI Chatbot</h2>
+
+<a href="/logout">
+
+<button>
+
+Logout
+
+</button>
+
+</a>
+
+</div>
+
+<div class="main">
+
+<div id="chatbox"></div>
+
+<div class="input-area">
+
+<input
+id="userInput"
+placeholder="Type message">
+
+<button onclick="sendMessage()">
+
+Send
+
+</button>
+
+</div>
+
+</div>
+
+<script src="{{url_for('static',filename='script.js')}}"></script>
+
+</body>
+
+</html>
